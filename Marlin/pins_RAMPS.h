@@ -91,7 +91,7 @@
 #define X_STEP_PIN         54
 #define X_DIR_PIN          55
 #define X_ENABLE_PIN       38
-#define X_CS_PIN           53
+#define X_CS_PIN           64
 
 #define Y_STEP_PIN         60
 #define Y_DIR_PIN          61
@@ -534,13 +534,13 @@
 #endif // ULTRA_LCD
 
 #if ENABLED(ZONESTAR_LCD)
-  #define LCD_PINS_RS        64
-  #define LCD_PINS_ENABLE    44
-  #define LCD_PINS_D4        63
-  #define LCD_PINS_D5        40
-  #define LCD_PINS_D6        42
-  #define LCD_PINS_D7        65
-  #define ADC_KEYPAD_PIN     12
+  #define LCD_PINS_RS        32
+  #define LCD_PINS_ENABLE    47
+  #define LCD_PINS_D4        45
+  #define LCD_PINS_D5        43
+  #define LCD_PINS_D6        41
+  #define LCD_PINS_D7        39
+  #define ADC_KEYPAD_PIN     11
   #define BTN_EN1            -1
   #define BTN_EN2            -1
   #define BTN_ENC            -1
